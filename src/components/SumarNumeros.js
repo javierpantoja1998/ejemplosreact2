@@ -16,8 +16,8 @@ function SumarNumeros(props) {
         <h1>Componente SumarNumeros</h1>
         <img style={imageSize} src={imagen}/>
         <br/>
-        <button onClick={() => sumarNumeros(7,9)}>Sumar 7+9</button>
-        <button onClick={() => sumarNumeros(6,5)}>Sumar 6+5</button>
+        <button onClick={() => sumarNumeros()}>Sumar</button>
+        
     </div>);
 }
 
