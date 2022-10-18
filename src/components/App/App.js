@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1>Componente App</h1>
       <SumarNumeros numero1="5" numero2="4"/>
-      <SumarNumeros numero1="15" numero2="14"/>
+      <SumarNumeros numero1="13" numero2="14"/>
     </div>
   );
 }
