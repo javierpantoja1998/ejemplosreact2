@@ -13,12 +13,16 @@ function Contador(props) {
         
     }
 
+    
+
+
     return (
         <div>
             <h1>Ejemplo de State con React</h1>
             <h2 style={{color:"blue"}}>Contador:{numero}</h2>
             <button onClick={ () => sumarContador() }>Contador</button>
             <button onClick={ () => setNumero(numero-1)  }>Contador</button>
+
 
         </div>
     )

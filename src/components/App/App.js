@@ -5,7 +5,10 @@ import SaludoHijo from '../SaludoHijo';
 
 import Matematicas from '../Matematicas';
 import { forwardRef } from 'react';
+
 import Contador from '../Contador';
+
+import Car from '../Cars';
 
 function App() {
 
@@ -25,6 +28,8 @@ function App() {
   return (
     <div className="App">
       <h1>Componente App</h1>
+      <Car Marca="Ferrari" Modelo="LA FERRARI" Aceleracion="60" VelocidadMaxima="350"></Car>;
+      <Car Marca="Mercedes" Modelo="GLA" Aceleracion="20" VelocidadMaxima="270"></Car>;
       {/* Enviamos el metodo del padre al hijo con un nombre del props */}
       
       {/* <SaludoHijo idHijo="1" metodoPadre = {metodoPadre}/>
@@ -35,6 +40,8 @@ function App() {
       <Matematicas numero="3" numeroTriple={tripleNumero}></Matematicas>
       
       <Contador inicio="0"></Contador>
+
+      
       
     </div>
   );

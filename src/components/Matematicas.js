@@ -6,7 +6,7 @@ function Matematicas(props) {
     
     var num = props.numero;
     var tripleNumero = props.numeroTriple;
-    
+
     const { inicio} = props;
     const [numero, setNumero] = useState(parseInt(inicio));
   
